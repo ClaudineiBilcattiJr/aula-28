@@ -8,7 +8,7 @@ on:
 
 jobs:
   teste-pipe1:
-    runs-on: ubuntu:latest
+    runs-on: ubuntu-latest
     steps:
       - name: Git checkout - clone
         uses: actions/checkout@v3
